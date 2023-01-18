@@ -2,11 +2,14 @@
 //  ViewController.swift
 //  RickAndMorty2023
 //  https://youtu.be/EZpZDuOAFKE
+//  rickandmortyapi.com/documentation/
+//  REST: https://rickandmortyapi.com/api
 //  Created by Alex Murphy on 15.01.2023.
 //  MVVM architecture
 
 import UIKit
 
+/// Controller to house tabs and root tab controllers
 final class RMTabBarController: UITabBarController {
     
     override func viewDidLoad() {
