@@ -1,0 +1,15 @@
+//
+//  RMSingleLocation.swift
+//  RickAndMorty2023
+//
+//  Created by Alex Murphy on 18.01.2023.
+//
+
+import Foundation
+
+struct RMSingleLocation: Codable {
+    
+    let name: String
+    let url: String
+
+}

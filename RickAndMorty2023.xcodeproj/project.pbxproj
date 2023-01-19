@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		2A5FB02F2977FD3E00414531 /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FB02E2977FD3E00414531 /* RMRequest.swift */; };
 		2A5FB0312977FE9600414531 /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FB0302977FE9600414531 /* RMEndpoint.swift */; };
+		2A5FB033297824D100414531 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FB032297824D100414531 /* RMOrigin.swift */; };
+		2A5FB0352978257700414531 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FB0342978257700414531 /* RMSingleLocation.swift */; };
+		2A5FB037297827AB00414531 /* RMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FB036297827AB00414531 /* RMCharacterStatus.swift */; };
+		2A5FB0392978281300414531 /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FB0382978281300414531 /* RMCharacterGender.swift */; };
 		2A7D371B29744C9200D7AD91 /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D371A29744C9200D7AD91 /* RMService.swift */; };
 		2AD3F78D2974058A00091220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3F78C2974058A00091220 /* AppDelegate.swift */; };
 		2AD3F78F2974058A00091220 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3F78E2974058A00091220 /* SceneDelegate.swift */; };
@@ -27,6 +31,10 @@
 /* Begin PBXFileReference section */
 		2A5FB02E2977FD3E00414531 /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
 		2A5FB0302977FE9600414531 /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
+		2A5FB032297824D100414531 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
+		2A5FB0342978257700414531 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
+		2A5FB036297827AB00414531 /* RMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterStatus.swift; sourceTree = "<group>"; };
+		2A5FB0382978281300414531 /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
 		2A7D371A29744C9200D7AD91 /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
 		2AD3F7892974058A00091220 /* RickAndMorty2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD3F78C2974058A00091220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +108,10 @@
 				2AD3F7A7297409A200091220 /* RMLocation.swift */,
 				2AD3F7A9297409C100091220 /* RMCharacter.swift */,
 				2AD3F7AB297409DB00091220 /* RMEpisode.swift */,
+				2A5FB032297824D100414531 /* RMOrigin.swift */,
+				2A5FB0342978257700414531 /* RMSingleLocation.swift */,
+				2A5FB036297827AB00414531 /* RMCharacterStatus.swift */,
+				2A5FB0382978281300414531 /* RMCharacterGender.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,6 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5FB033297824D100414531 /* RMOrigin.swift in Sources */,
+				2A5FB0352978257700414531 /* RMSingleLocation.swift in Sources */,
+				2A5FB037297827AB00414531 /* RMCharacterStatus.swift in Sources */,
+				2A5FB0392978281300414531 /* RMCharacterGender.swift in Sources */,
 				2AD3F7B12974132500091220 /* RMLocationViewController.swift in Sources */,
 				2AD3F7AC297409DB00091220 /* RMEpisode.swift in Sources */,
 				2AD3F7912974058A00091220 /* RMTabViewController.swift in Sources */,
