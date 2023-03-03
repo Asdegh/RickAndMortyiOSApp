@@ -98,7 +98,7 @@ final class RMCharacterListViewViewModel: NSObject {
                 self?.isLoadingMoreCharacters = false
             }
         }
-    }
+    } 
     public var shouldShowLoadMoreIndicator: Bool {
         return apiInfo?.next != nil
     }
@@ -172,7 +172,7 @@ extension RMCharacterListViewViewModel: UIScrollViewDelegate {
             let totalScrollViewFixedHeight = scrollView.frame.size.height
             
             if offset >= (totalContentHeight - totalScrollViewFixedHeight - 120) {
-                print("Should start fetching more")
+                // print("Should start fetching more")
                 self?.fetchAdditionalCharacters(url: url)
             }
             t.invalidate()

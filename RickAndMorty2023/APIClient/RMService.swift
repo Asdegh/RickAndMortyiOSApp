@@ -43,7 +43,7 @@ final class RMService {
             do {
                 let result = try JSONDecoder().decode(type.self, from: data)
                 completion(.success(result))
-                print(String(describing: result))
+                // print(String(describing: result))
             }
             catch {
                 completion(.failure(error))
