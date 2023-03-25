@@ -1,5 +1,5 @@
 //
-//  LocationView.swift
+//  RMLocationView.swift
 //  RickAndMorty2023
 //
 //  Created by Alex Murphy on 25.03.2023.
@@ -7,7 +7,18 @@
 
 import UIKit
 
-final class LocationView: UIView {
+final class RMLocationView: UIView {
+
+	private var viewModel: RMLocationViewViewModel? {
+		didSet {
+			spinner.stopAnimating()
+			tableView.isHidden = false
+			tableView.reloadData()
+			UIView.animate(withDuration: 0.3) {
+				self.tableView.alpha = 1
+			}
+		}
+	}
 
 	private let tableView: UITableView = {
 		let table = UITableView()
@@ -28,7 +39,7 @@ final class LocationView: UIView {
 	// MARK: - Init
 	override init(frame: CGRect) {
 		super.init(frame: frame)
-		backgroundColor = .red
+		backgroundColor = .systemBackground
 		translatesAutoresizingMaskIntoConstraints = false
 		addSubviews(tableView, spinner)
 		spinner.startAnimating()
@@ -52,5 +63,7 @@ final class LocationView: UIView {
 			tableView.bottomAnchor.constraint(equalTo: bottomAnchor),
 		])
 	}
+	public func configure(with viewModel: RMLocationViewViewModel) {
 
+	}
 }
